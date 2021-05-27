@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Vindo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/agenda.png">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+        <nav>
+            <button class="button-new-task">Nova Tarefa</button>
+            <button class="button-about">Sobre</button>
+        </nav>
+    </header>
+
+    <section class="container">
+        <fieldset class="fs">
+            <legend><strong>Nova Tarefa</strong></legend>
+            <p> 
+                <span>Tarefa :</span>
+                <input type="text" class="input-tarefa"></input>
+                <span>Descrição :</span>
+                <input type="text" class="input-descricao"></input>
+                <button class="btn-tarefa">Adicionar</button>
+            </p>
+            <ul class="tarefas"></ul>
+        </fieldset>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

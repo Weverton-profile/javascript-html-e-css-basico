@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --primary-color: #7B68EE;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    background: var(--primary-color);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+header {
+    width: 90%;
+    background: #483D8B;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    border-radius: 0 0 70px 70px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1#main-screen {
+    cursor: pointer;
+}
+
+header nav button {
+    height: 60px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    border: none;
+    background: #483D8B;
+    padding: 0 20px;
+    color: #fff;
+}
+header nav button:hover {
+    background: var(--primary-color);
+    cursor: pointer;
+    font-size: 23px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 860px;
+    margin: 10px auto;
+    background: #E6E6FA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #483D8B;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+section.container p {
+    font-size: 1.2em;
+}
+
+/* Sobre  */
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+/*******/
+
+/* Nova Tarefa  */
+fieldset {
+    border: 2px solid #708090;
+    border-radius: 10px;
+}
+
+fieldset legend {
+    border: 2px solid #708090;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+fieldset p input {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #708090;
+}
+
+fieldset p button {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #708090;
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    box-shadow: 2px 2px #708090;
+}
+
+fieldset p button:active {
+    box-shadow: none;
+}
+/*******/
+
+ul {
+    border-radius: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #708090;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px #708090;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.fa-trash {
+    color: #CD3333;
+    border: none;
+    background: #fff;
+    font-size: 1.5em;
+}
+
+.fa-trash:hover {
+    cursor: pointer;
+}

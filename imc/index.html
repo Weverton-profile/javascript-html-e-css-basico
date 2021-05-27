@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC - indice de massa corporal</title>
+    <script src="https://kit.fontawesome.com/8b53d1927a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <section>
+        <form class="form">
+            <fieldset>
+                <legend style="margin-left: auto; margin-right: auto;">Calcule seu Indice de massa corporal</legend>
+                <label for="peso">Peso : </label>
+                <input class="peso" type="number" name="peso" id="peso" placeholder="Quilos">
+
+                <label for="altura">Altura: </label>
+                <input class="altura" type="text" name="altura" id="altura" placeholder="Metros">
+
+                <button>Calcular</button>
+
+            </fieldset>
+        </form>
+        <div class="table">
+            <p>Baixo Peso: <span style="color: #00FF00;"><strong> menos de 18.49</strong></span></p>
+            <p>Peso Ideal: <span style="color: #ADFF2F;"><strong> entre 18.5 e 24.99</strong> </span></p>
+            <p>Acima do Peso: <span style="color: #FFA500;"><strong> entre 25 e 29.99</strong> </span></p>
+            <p>Obesidade I: <span style="color: #FF4500;"><strong> entre 30 e 34.99</strong> </span></p>
+            <p>Obesidade II: <span style="color: #FF0000;"><strong> entre 35 e 39.99</strong> </span></p>
+            <p>Obesidade III: <span style="color: #000000;"><strong> acima de 40</strong> </span></p>
+        </div>
+    </section>
+    <section>
+        <fieldset class="infos">
+            <legend class="dados" style="margin-left: auto; margin-right: auto;">Informações</legend>
+            <div id="infos">
+                <h3>O que é IMC?</h3>
+                <p>
+                    IMC significa Índice de Massa Corporal 
+                    e é um parâmetro utilizado para saber se o peso está de acordo com a altura da pessoa, 
+                    o que pode interferir diretamente na saúde e qualidade de vida da pessoa. 
+                    Assim, a partir do resultado do IMC é possível saber também se a pessoa está dentro do peso ideal 
+                    e também identificar obesidade ou desnutrição em crianças, adolescentes, adultos ou idosos.
+                </p>
+                <h3>Como é calculado?</h3>
+                <p>
+                    O IMC é a relação entre peso e altura e o cálculo é feito de acordo com a fórmula: 
+                    IMC = peso/ (altura x altura), devendo o peso estar em kg e a altura em metro, 
+                    e o resultado é dado em kg/m2. Depois de obter o resultado, 
+                    é verificado em que faixa o resultado se encontra, podendo indicar:
+                </p>                 
+            </div>
+        </fieldset>
+    </section>
+    <footer>
+        <div>
+            <span>Desenvolvido por : </span><a href="https://www.instagram.com/weverton.alves.357/"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
