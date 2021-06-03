@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&family=DotGothic16&family=Press+Start+2P&family=Wallpoet&display=swap');
+
+:root {
+    --primary-color: #66CDAA;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #4F4F4F;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #000;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #1C1C1C;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.calculadora {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.display {
+    font-family: 'Wallpoet', cursive;
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #698B69;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    background: #f1f3f4;
+    color: #202124;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 1px #1C1C1C;
+    border: none;
+}
+
+.btn-eq {
+    background: #4285f4;
+    color: #fff;
+}
+
+.btn-sym {
+    background: #dadce0;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.btn:hover {
+    background: #E0EEE0;
+}
+
+.btn-sym:hover {
+    background: #C1CDC1;
+}
+
+.btn-eq:hover {
+    background: #4682B4;
+}
