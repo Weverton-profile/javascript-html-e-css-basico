@@ -3,6 +3,6 @@ exports.paginaInicial = (req, res, next) => {
   next();
 };
 
-exports.trataPost = (req, res, next) => {
+exports.trataPost = (req, res) => {
   res.send(req.body);
 };
